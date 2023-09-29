@@ -1,0 +1,24 @@
+body {
+    background-image: url("https://images.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+
+header {
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+    margin: 250px;
+    color: white;
+}
+
+p {
+    text-indent: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
