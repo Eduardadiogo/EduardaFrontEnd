@@ -1,0 +1,207 @@
+#caixa-imagem {
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-content: flex-start;
+    width: 200px;
+} 
+
+
+#imagem {
+    width: 200px;
+} 
+
+
+.link {
+    color: white;
+    text-decoration: none;
+    
+}
+
+.link:hover{
+    color:crimson;
+}
+
+body{
+    margin: 0;
+}
+
+.objeto-pai {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(twitter-fundo2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+} 
+
+.objeto-filho {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 20px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    color: white
+}
+
+.botao-saiba-mais:hover {
+    color: brown;
+}
+
+.pai-de-todos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(16, 16, 165);
+    height: 125px;
+}
+
+.boxes {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;  
+    background-color: rgb(16, 16, 165);
+}
+
+.box {
+    background-color:white;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:rgb(16, 16, 165)  ;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagens {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+.fundoPreto {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-evenly;  
+    background-color: rgb(16, 16, 165);
+}
+
+.imagemDaDireita {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 500px;
+    border-radius: 10%;
+}
+
+.filho1 {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    padding-top:20px;
+    margin-right: 50px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.ultimasImagens {
+    display: flex;
+    background-color: rgb(16, 16, 165);
+    justify-content: space-evenly;
+    padding: ;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+}
+
+.fotosFinais {
+    border: 1px solid white;
+    background-color: black;
+} 
+
+.fotos {
+    width: 100%;
+    height: 100%;
+}
+
+.avô {
+    display: flex;
+    background-color: rgb(16, 16, 165);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.pai {
+
+}
+
+.filha {
+    height: 200px;
+    width: 100%;
+}
+
+.banner2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(twitter-fundo2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+} 
+
+.form-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input, textarea {
+    width: 100px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(16, 16, 165);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 59);;
+}
