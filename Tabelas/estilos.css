@@ -1,0 +1,28 @@
+h1 {
+    color: #9900ff; /* cor do texto*/
+    font-family: Edwardian, sans-serif; /* fonte do texto*/
+}
+
+/* estilo para parágrafos (p) */ 
+p {
+    font-size: 16px; /* tamanho da fonte */
+    line-height: 1.4; /* espaçamento das linhas*/
+}
+
+/* estilo para a imagem */
+img {
+    max-width: 10%; /* largura máxima da imagem */
+    height: auto; /* altura automática proporcional */
+    margin: 20px 0; /* margem superior e inferior */
+}
+
+/* estilo para links (a) */
+a {
+    color: #ff00d4; /* cor do link*/ 
+    text-decoration: none; /* remover sublinhado padrão */
+}
+
+/* estilo para links quando o mouse passar por cima (hover) */ 
+a:hover {
+    text-decoration: underline; /* sublinhado ao passer o mouse*/
+}

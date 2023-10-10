@@ -1,0 +1,22 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    text-align: center;
+    width: 500PX;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#corRanking {
+    color: white;
+    background-color: rgb(61, 10, 61);
+}
+
+#corInformacoes {
+    color: white;
+    background-color: rgb(192, 67, 192);
+}
+
+#melhorPontuacao {
+    background-color: rgba(226, 185, 226, 0.568);
+}
