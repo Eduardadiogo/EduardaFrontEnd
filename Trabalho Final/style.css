@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    padding: 40px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.linha {
+    width: 100%;
+    height: 1px;
+
+}
+
+.maior {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items:center
+}
+
+.título {
+    color: white;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.texto {
+    color: white;
+}
+
+.imagemDaDireita {
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.fotoDaDireita {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
